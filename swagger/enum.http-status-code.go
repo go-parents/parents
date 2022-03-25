@@ -2,7 +2,7 @@ package swagger
 
 type HttpStatusCodeEnumOption string
 
-// Used in the Path model
+// Used in the PathItem model
 const (
 	// StatusDefault used as a default response object for all HTTP codes that are not covered individually
 	StatusDefault      HttpStatusCodeEnumOption = "default"

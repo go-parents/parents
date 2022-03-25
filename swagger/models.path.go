@@ -1,6 +1,6 @@
 package swagger
 
-type Path struct {
+type PathItem struct {
 	Tags []string `json:",omitempty"`
 
 	Summary     string         `json:",omitempty"`

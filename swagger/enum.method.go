@@ -2,7 +2,7 @@ package swagger
 
 type MethodEnumOption string
 
-// Used in the Path model
+// Used in the PathItem model
 const (
 	MethodGet     MethodEnumOption = "get"
 	MethodPut     MethodEnumOption = "put"
