@@ -4,12 +4,12 @@ package swagger
 type Header struct {
 	// Name omitted as per spec
 	// In omitted as per spec
-	Description     string `json:",omitempty"`
+	Description     MarkdownString `json:",omitempty"`
 	Required        bool
 	Deprecated      bool
 	AllowEmptyValue bool
 
-	Style         string `json:",omitempty" enum:"matrix,label,form,simple,spaceDelimited,pipeDelimited,deepObject"`
+	Style         StyleEnumOption `json:",omitempty"`
 	Explode       bool
 	AllowReserved bool
 	Schema        *Schema            `json:",omitempty"`
